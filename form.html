@@ -1,0 +1,102 @@
+<html>
+
+<head>
+  <title>Registration form</title>
+  <link rel="stylesheet" href="style.css" type="text/css" />
+  <script src="js.js"></script>
+</head>
+
+<body bgcolor="#4A3728">
+  <div id="header" align="center"> Registration Form</div>
+  <div class="form-style">
+    <h2>Create account</h2>
+    <form name="form1" method="post" action="#" OnSubmit="return fncValidate();" onsubmit="return calculate_age();"
+      autocomplete="off">
+      <table align="center" width="400" border="0">
+        <tr>
+          <td width="125"> &nbsp;First name:</td>
+          <td width="180">
+            <div class="input-group">
+              <input type="text" name="fname" size="15">
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td width="125"> &nbsp;Last name:</td>
+          <td width="180">
+            <div class="input-group">
+              <input type="text" name="lname" size="15">
+            </div>
+          </td>
+        </tr>
+        <tr>
+          </td>
+          <td>Date of birth:</td>
+          <td>
+            <div class="input-group"><input type="date" name="dob" id="bd" onkeyup="calculate_age"></div>
+          </td>
+        </tr>
+        <tr>
+          <td>Age:<p id="calculate_age"></p>
+          </td>
+          <td>
+            <div class="input-group"><input type="year" name="Age" id="old"></div>
+          </td>
+        </tr>
+        <tr>
+          <td>Address:</td>
+          <td><textarea name="address" class="textarea-field"></textarea></td>
+        </tr>
+        </td>
+        </tr>
+        <tr>
+          <td> &nbsp;Email:</td>
+          <td>
+            <div class="input-group"><input type="email" name="emailn"></div>
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;Username:</td>
+          <td>
+            <div class="input-group"><input type="text" name="uname" id="usname"></div>
+          </td>
+        </tr>
+        <tr>
+          <td> &nbsp;Password:</td>
+          <td>
+            <div class="input-group"><input type="password" name="Password"></div>
+          </td>
+        </tr>
+        <tr>
+          <td> &nbsp;Confirm Password:</td>
+          <td>
+            <div class="input-group"><input type="password" name="ConPassword"></div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="input-group">Trems & conditions:&nbsp;&nbsp;</div>
+          </td>
+          <td><a href="https://www.termsfeed.com/blog/sample-terms-and-conditions-template/"> click
+              here to see terms & conditions</a><br></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <span id="t&c">
+              <input type="checkbox" id="Agree" name="t&c" value="agree">Agree
+              <input type="checkbox" name="t&c" id="No" value="No">No</span>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><input type="submit" name="Submit" value="Submit" class="btn">&nbsp;&nbsp;
+            <input type="reset" name="reset" value="Reset" class="btn">
+          </td>
+        </tr>
+      </table>
+    </form>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+	
+<head>
+<title>Coffee with SAKI | Register</title> 
+
+<link rel="stylesheet" href="..\styles\styles.css">
+<meta name = "viewpoint" content="width=device-width, initial scale=1.0" >
+<link rel="stylesheet" href="style.css>">
+
+</head>
+
+<body background="..\Images\image14.jpg">
+
+ <header>
+        <div class="logo">Coffee with SAKI</div>
+        <div class="menu">
+          <ul>
+            <li ><a href="Home.html" target="_self">Home</a></li>
+            <li ><a  href="Order.html" target="_self">Order</a></li>
+            <li><a id="active" href="Register.html" target="_self">Register</a></li>
+			<li><a  href="Signin.html" target="_self">Sign In</a></li>
+            <li><a href="About us.html">About  Us</a></li>
+          </ul>
+        </div>
+        <div class="Tasteit">
+			Taste it..Love it..
+			</div>
+    </header>
+ 
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+   
+  background-color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ 
+.container {
+  padding: 16px;
+ 
+}
+
+ 
+input[type=text], input[type=password] {
+  width: 50%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+
+  outline: none;
+}
+
+ 
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+ 
+.registerbtn {
+  background-color: #794028;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+  
+.clearbtn {
+  background-color: #794028;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+}
+
+.clearbtn:hover {
+  opacity: 1;
+}
+ 
+a {
+  color: dodgerblue;
+}
+
+ 
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<center><form action="/action_page.php">
+  <div class="container">
+  <font color="white">
+    <h1>Register</h1>
+	<br>
+    <p>Please fill in this form to get more opportunities from Coffee with SAKI..</p></font>
+	<br>
+    <hr>
+
+
+
+	<label for="Name"><b> </b></label>
+    <input type="text" placeholder="Enter Name" name="name" id="name1" required>
+	
+	<label for="telno"><b> </b></label>
+    <input type="text" placeholder="Enter the telephone number" name="telno" id="telno" required>
+	
+	
+    <label for="email"><b> </b></label>
+    <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+    <label for="psw"><b> </b></label>
+    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+    <label for="psw-repeat"><b> </b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+	<br>
+		 <p> <i><font color="white">If you select one of above, we can inform you the ultimate packages for you.</p></i></font>
+		 <br>
+		 
+	<h4>
+	<p><input type="radio" id="age" name="age2" value="single">
+	<label for="single"><font color="white">Single</label><br><br>
+	
+	<input type="radio" id="age" name="age2" value="couple">
+	<label for="couple">Couple</label><br></p></font><br>
+	
+	
+	<input type="radio" id="age" name="age2" value="family"> <font color="white">
+	<label for="family">Family</label><br></p></font><br>
+	</h4>
+	
+<br>
+    
+    <p> <font color="white">By creating an account you agree to our Terms & Privacy .</p></font>
+
+   <button type="submit"  class="registerbtn">  <h3><a href="Order.html">Register</h3></button>
+	<button type="reset" class="clearbtn"><h3>Clear</h3></button>
+  </div>
+  
+  <div class="container signin">
+    <p><font color="black">Already have an account?</font> <a href="Signin.html"><i>Sign in</i></a>.</p>
+  </div>
+</form>
+</center>
+
+
+
+
+</form>
+
+</body>
+</html>
